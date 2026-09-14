@@ -2,6 +2,13 @@
 
 Proyecto desarrollado como parte del laboratorio de Fundamentos y Entornos de Desarrollo en Python. El programa consume una API pública de chistes y muestra el resultado en la terminal, aplicando manejo de errores durante la consulta.
 
+## Requisitos
+
+- Python 3.10 o superior
+- Git
+- Visual Studio Code
+- Conexión a internet
+
 ## Instalación
 
 1. Crear el entorno virtual:
