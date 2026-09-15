@@ -95,3 +95,27 @@ También se utilizó NumPy para trabajar con arrays, realizar operaciones vector
 ### Resultado
 
 El flujo desarrollado permite obtener datos meteorológicos desde una API REST, almacenarlos, transformarlos y analizarlos utilizando herramientas de Python.
+
+## Cierre de la Unidad I — Semana 3
+
+Herramienta de automatización: `organizador.py` clasifica y mueve archivos
+de una carpeta en subcarpetas por tipo (Documentos, Imagenes, Videos,
+Comprimidos, Otros), con modo de simulacion (`--dry-run`) mediante argparse.
+
+### Uso
+
+```bash
+python organizador.py <carpeta> [--dry-run]
+```
+
+### Pruebas
+
+`test_organizador.py` cubre clasificacion, movimiento real y modo
+simulacion, usando la fixture `tmp_path` de pytest para no afectar el
+sistema de archivos real.
+
+Ejecutar con:
+
+```bash
+pytest -v
+```
