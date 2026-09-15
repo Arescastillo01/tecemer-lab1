@@ -61,3 +61,37 @@ Ares Gabriel Castillo Ayarza
 ## Curso
 
 Tecnologías Emergentes — ISO46B
+
+## Flujo de datos - Semana 2
+
+Durante esta semana se desarrolló un flujo de datos utilizando NumPy, Requests y Pandas.
+
+### Fuente de datos
+
+Los datos meteorológicos fueron obtenidos desde la API pública Open-Meteo, utilizando las coordenadas de Huancayo. Se consultó el pronóstico de 7 días, incluyendo temperatura máxima, temperatura mínima y precipitación.
+
+### Transformación de datos
+
+Los datos obtenidos en formato JSON fueron procesados y convertidos a CSV. Posteriormente, con Pandas se realizaron las siguientes transformaciones:
+
+- Conversión de la fecha a formato datetime.
+- Cálculo de la amplitud térmica.
+- Identificación de días lluviosos.
+- Clasificación de los días en frío, templado o cálido.
+- Agrupación de los datos por categoría.
+
+También se utilizó NumPy para trabajar con arrays, realizar operaciones vectorizadas y calcular estadísticas descriptivas.
+
+### Archivos generados
+
+- `numpy_demo.py`
+- `clima.py`
+- `analisis.py`
+- `pronostico_huancayo.json`
+- `pronostico_huancayo.csv`
+- `pronostico_huancayo_procesado.csv`
+- `resumen_por_categoria.csv`
+
+### Resultado
+
+El flujo desarrollado permite obtener datos meteorológicos desde una API REST, almacenarlos, transformarlos y analizarlos utilizando herramientas de Python.
