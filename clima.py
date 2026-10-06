@@ -9,7 +9,7 @@ PARAMETROS = {
     "longitude": -75.21,
     "daily": "temperature_2m_max,temperature_2m_min,precipitation_sum",
     "timezone": "America/Lima",
-    "forecast_days": 7,
+    "forecast_days": 16,
 }
 
 try:
